@@ -85,6 +85,8 @@ const CompareFaces = () => {
     const distance = faceapi.euclideanDistance(face_1, face_2);
 
     const distInverse = (1 - distance) * 100;
+
+    alert(`Faces are ${distInverse}% identical`);
     console.log("comparing", distInverse, euclideanDistance);
   };
 
