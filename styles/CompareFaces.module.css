@@ -1,0 +1,9 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+}
